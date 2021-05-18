@@ -19,8 +19,8 @@ def setup_logging():
  
 def start(update: Update, context: CallbackContext):
     context.bot.send_message(chat_id=update.effective_chat.id, text="""
-Spotify Download Bot [🙂](https://telegra.ph/file/ab07593dd2ff5a25ed66a.jpg) 
-        
+Spotify Download Bot 🙂
+       
 Uses:-  
 • Can download any spotify song.
 • Can download any spotify playlist-(slow)
