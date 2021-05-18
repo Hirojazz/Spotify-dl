@@ -19,25 +19,22 @@ def setup_logging():
  
 def start(update: Update, context: CallbackContext):
     context.bot.send_message(chat_id=update.effective_chat.id, text="""
--·=»‡«=·- ֆքօȶɨʄʏ ɖօառʟօǟɖ ɮօȶ -·=»‡«=·-
+Spotify Download Bot [🙂](https://telegra.ph/file/ab07593dd2ff5a25ed66a.jpg) 
         
-🍭  🎀  Featureʂ 🎀  🍭     
-* Can download any spotify song.
-* Can download any spotify playlist-(❌BETA-SLOW❌)
-* Premium song supported
-* Free Lol!
+Uses:-  
+• Can download any spotify song.
+• Can download any spotify playlist-(slow)
+• Premium song supported
+• Free to use
 
-* 𝕌𝕊𝔼 /help 𝔽𝕆ℝ 𝕄𝕆ℝ𝔼 𝕀ℕ𝔽𝕆*
-Made with💚by @phantomxhawk
-
-[https://telegra.ph/file/ff06b4802f3a2ac7b6343.jpg]
+• for more info use /help
 """)
      
 def help(update: Update, context: CallbackContext):
     context.bot.send_message(chat_id=update.effective_chat.id, text="""
 🍮♠ ʊֆǟɢɛ ♠🍮\n
-*SINGLE  - Type /𝙨𝙥𝙤𝙩𝙞𝙛𝙮 "Song url"
-*PLAYLIST- Type /𝙨𝙥𝙤𝙩𝙞𝙛𝙮 "Playlist url" (❌BETA-SLOW❌)""")
+• SINGLE  - Type /spotify "Song url" or "song name"
+• PLAYLIST- Type /spotify "Playlist url" (SLOW)""")
     
 def error(update: Update, context: CallbackContext, error):
     logger.warning('Update "%s" caused error "%s"', update, error)
