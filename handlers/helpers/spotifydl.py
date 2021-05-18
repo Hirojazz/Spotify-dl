@@ -19,7 +19,7 @@ def sendspotify(download_path: str, update: Update, context: CallbackContext):
         if not file.endswith(".mp3"):
             continue
         result = context.bot.send_audio(
-            caption=("ፑ𝐫0ṃ📥 @vrtxspotify_bot"),
+            caption=("ፑ𝐫0ṃ📥 @SpotifyToMp3_robot"),
             chat_id=update.effective_chat.id,
             audio=open(f'{download_path}/{file}', 'rb')
         )
