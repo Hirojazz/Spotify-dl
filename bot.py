@@ -32,7 +32,7 @@ Uses:-
      
 def help(update: Update, context: CallbackContext):
     context.bot.send_message(chat_id=update.effective_chat.id, text="""
-🍮♠ ʊֆǟɢɛ ♠🍮\n
+Uses\n
 • SINGLE  - Type /spotify "Song url" or "song name"
 • PLAYLIST- Type /spotify "Playlist url" (SLOW)""")
     
